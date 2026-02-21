@@ -1,3 +1,4 @@
+![Equity Curve](results/equity_curve.png)
 # Volatility Targeting Overlay
 
 A research-style Python backtest of a volatility targeting overlay designed to keep portfolio risk more stable through time while remaining implementable (leverage caps, turnover controls, and transaction cost sensitivity).
