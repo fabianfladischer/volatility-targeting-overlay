@@ -52,3 +52,14 @@ source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ### 3) Run the example backtest
 python src/run_aapl_ewma_voltarget.py
+
+## Data Requirements
+The example expects input CSVs in data/ (kept local and ignored by git).
+### Typical files:
+data/AAPL_daily_adj_20190101_today.csv
+data/VIX_daily_adj_20190101_today.csv
+(optional) data/US2Y_daily_adj_20190101_today.csv
+### Your CSVs should contain:
+a date column (first column), and
+a price/value column such as PX_LAST / LAST / similar.
+If your files have different column names, update the column mapping in src/run_aapl_ewma_voltarget.py.
