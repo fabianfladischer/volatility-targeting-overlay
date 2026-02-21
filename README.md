@@ -22,5 +22,11 @@ A research-style Python backtest of a volatility targeting overlay designed to k
 ## One-pager
 See: `docs/one_pager.pdf`
 
+## Quickstart (local)
+- python -m venv .venv
+- source .venv/bin/activate   # Windows: .venv\Scripts\activate
+- pip install -r requirements.txt
+- python src/run_aapl_ewma_voltarget.py
+
 ## Notes
 This is a personal research/portfolio project for educational purposes (not investment advice).
