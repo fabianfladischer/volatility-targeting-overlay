@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# keep local data private (do not publish vendor-exported market data)
+data/*.csv
+data/*.xlsx
+data/*.parquet
