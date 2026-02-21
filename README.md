@@ -63,3 +63,6 @@ data/VIX_daily_adj_20190101_today.csv
 a date column (first column), and
 a price/value column such as PX_LAST / LAST / similar.
 If your files have different column names, update the column mapping in src/run_aapl_ewma_voltarget.py.
+
+## Notes
+This is a personal research/portfolio project for educational purposes (not investment advice).
